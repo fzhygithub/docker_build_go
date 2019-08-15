@@ -1,3 +1,4 @@
+```
 …or create a new repository on the command line
 echo "# docker_build_go" >> README.md
 git init
@@ -38,3 +39,4 @@ CMD go run main.go
 
 
 #http://www.iamlintao.com/6748.html
+```
