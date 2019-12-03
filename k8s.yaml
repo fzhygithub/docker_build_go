@@ -30,5 +30,5 @@ spec:
   type: NodePort
   ports:
   - name: go
-    port: 80
+    port: 8080
     targetPort: go
