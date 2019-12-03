@@ -29,6 +29,6 @@ spec:
     app: jenkins-go-demo
   type: NodePort
   ports:
-  - name: go
+  - name: jenkins-go-demo
     port: 8080
-    targetPort: go
+    targetPort: 8080
