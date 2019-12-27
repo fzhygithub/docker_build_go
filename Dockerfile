@@ -1,4 +1,6 @@
-FROM golang
+#FROM golang
+FROM golang:alpine3.11
+
 ## 在docker的根目录下创建相应的使用目录
 RUN mkdir -p /www/webapp
 ## 设置工作目录
